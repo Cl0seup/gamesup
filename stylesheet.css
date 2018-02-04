@@ -1,0 +1,243 @@
+body {
+	background-color: grey;
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	margin: 0px;
+}
+
+.ht {
+	background-color: black;
+	color: white;
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	text-align: center;
+	font-style: italic;
+	font-size: 50px;
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	background-color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 14px 40px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-style: oblique;
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin-top: 10px;
+}
+
+td {
+	height: 35px;
+	width: 100px;
+	font-size: 20px;
+}
+
+button {
+	width: 100px;
+	position: relative;
+	margin-left: 50%;
+}
+
+p {
+	margin-top: 50px;
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+.b1 {
+	width: 200px;
+
+}
+
+/**************BASIC START***************/
+
+.div1 {
+	background: black;
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
+	border: 20px solid green;
+
+}
+
+.start {
+	border: 0px;
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position: relative;
+	top: 150px;
+	transition-timing-function: linear;
+}
+
+.start:hover {
+	border: 0px;
+	background: red;
+	width: 200px;
+	height: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 400px;
+	animation-name: Player;
+	animation-fill-mode: backwards;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+/*.Player {
+	border: 0px;
+	background: red;
+	width: 200px;
+	height: 15px;
+	border-radius: 15px;
+	position: relative;
+	top: 400px;
+	animation-name: Player;
+	animation-fill-mode: backwards;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}*/
+
+@keyframes Player {
+	0% {
+		left: 0px;
+	}
+	25% {
+		left: 150px;
+	}
+	50% {
+		left: 0px;
+	}
+	75% {
+		left: -150px;
+	}
+	100% {
+		left: 0px;
+	}
+
+}
+
+
+/*********** CAR ANIMATION************/
+
+.box {
+	border: 3px solid black;
+	border-bottom: 10px solid black;
+	padding-top: 100px;
+	padding-bottom: 15px;
+}
+
+.car {
+	background: red;
+	width: 200px;
+	height: 58px;
+	border-top-right-radius: 90px;
+	border-top-left-radius: 35px;
+	border: 2px solid black;
+	margin-left: 15px;
+
+}
+
+.car:hover {
+	position: relative;
+	animation-name: car;
+	animation-fill-mode: backwards;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	border: 2px solid black;
+}
+
+@keyframes car {
+	0% {
+		left: 0px;
+	}
+	100% {
+		left: 1130px;
+
+	}
+}
+
+.w1 {
+	background: blue;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	position: relative;
+	float: left;
+	top: 50px;
+	margin-left: 20px;
+	border: 2px solid black;
+
+}
+
+.w2 {
+	background: blue;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	position: relative;
+	float: right;
+	top: 50px;
+	margin-right: 20px;
+	border: 2px solid black;
+}
+
+.square {
+	background: black;
+	width: 20px;
+	height: 20px;
+	border-top-right-radius: 90px;
+	position: relative;
+	margin-left: 150px;
+	top: 15px;
+}
+
+
+
+/****************FIRE***************/
+
+.gun {}
