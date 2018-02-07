@@ -236,8 +236,8 @@ p {
 	top: 15px;
 }
 
-
-
-/****************FIRE***************/
-
-.gun {}
+.div2 {
+	background: blue;
+	width: 15px;
+	height: 15px;
+}
